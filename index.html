@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio pessoal de Amanda Brito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav> <!-- Menu de navegação -->
+
+        <ul id="menu-h">
+             <li> <a href="#quem">Quem é Amanda?</a></li>
+            <li> <a href="#formacao">Formação</a> </li>
+            <li> <a href="#portifolio">Portifólio</a> </li>
+            <li> <a href="#contato">Contato</a> </li>
+        </ul>
+    </nav>
+
+    <section id="quem">
+        <div class="container">
+            <div class="texto">
+                <h2>Quem é Amanda?</h2>
+                <br>
+                <p>Antes de entrar pro universo da TI, já fui quase jornalista, escrevi contos, crônicas, resenhas... Anos depois fiz um curso de redação publicitária e logo comecei a trabalhar em uma agência onde aprendi muito.</p>
+                <p>Sou curiosa, autodidata e fascinada pelos estudos. Gosto de ler, viajar, conhecer novas culturas e pessoas. Aprendi inglês sozinha aos 16 anos, sonhando com o dia em que eu iria poder trabalhar e viajar ao mesmo tempo.</p>
+                <p>Tenho meus objetivos muito bem estabelecidos hoje em dia. Me considero uma pessoa muito determinada e focada em atingi-los. </p>
+                <br>
+                <ul>
+                    <li>Proativa</li>
+                    <li>Pontual</li>
+                    <li>Autodidata</li>
+                    <li>Curiosa</li>
+                    <li>Organizada</li>
+                </ul>
+        </div>
+        <div class="foto"> <!-- Espaço criado para colocar a foto -->
+
+            <img src="fotoport.jpg" alt="Amanda na foto">
+        </div>
+    </div>
+    
+    </section>
+    <br>
+    
+
+    <section id="formacao">
+        <div class="container2">
+            <div class="texto2">
+                <h2>Formação</h2>
+                <br>
+                <ul>
+                    <li>Lógica de Programação e Algoritmos - Curso em Vídeo</li>
+                    <li>Análise e Desenvolvimento de Sistemas - Em Formação</li>
+                    <li>HTML 5 e CSS 3 - Curso em Vídeo</li>
+                    <li>Inglês Avançado</li>
+                    <li>Python - Noções básicas</li>
+                </ul>
+        </div>        
+        <div class="foto2">
+                <img src="9269775.png" alt="livros">
+        </div>
+    </div>    
+    </section>
+
+    <section id="portifolio">
+        <h2>Portifólio</h2>
+        <div class="quadrado"></div> <!-- Espaço feito para simular o lugar que ficaria os projetos do portifólio -->
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        
+        <form action="enviar.php" method="post"> <!-- Tag do formulário de contato -->
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>

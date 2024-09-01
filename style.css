@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    width: 100%;
+    padding: 1px;
+    background-color: #24081E;
+    box-sizing: border-box;
+}
+
+nav ul { /* codigo que vai estilizar o menu */
+    list-style: none;
+    padding: 8px;
+    background-color: #24081E;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+   flex: 1;
+   text-align: center;
+   
+}
+
+nav ul li a{ 
+    display: block;
+    padding: 7px;
+    color: #fff;
+    text-decoration: none; /*tira o sublinhado do texto */
+    transition: 1s;
+}
+
+nav ul li a:hover { /* quando passar o mouse vai mudar a cor */
+    background-color: #A39B99;
+}
+
+body {
+    background-color: #A39B99; /*cor do fundo da pagina */
+    padding: 0;
+}
+
+#quem {
+    
+    padding: 20px;
+    background-color: #A39B99;
+}
+
+#formacao {
+    padding: 20px;
+    background-color: #A39B99;
+}
+.container {
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.container2 {
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.texto {
+    flex: 1;
+    max-width: 85%;
+    background-color: #A39B99;
+    color: black;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.texto2 {
+    flex: 1;
+    max-width: 85%;
+    background-color: #A39B99;
+    color: black;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.foto {
+    flex: 1;
+    max-width: 20%;
+    box-sizing: border-box;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+
+section {
+    border-top: 5px hidden #24081eab;
+    border-bottom: 5px solid #24081eab;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+.foto2 {
+    
+    flex: 1;
+    max-width: 20%;
+    box-sizing: border-box;
+}
+
+.foto2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.quadrado{
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    border: 2px solid #24081eab;
+    margin: 20px;
+}
+
+form { /* caracteristicas do formulario de contato */
+    width: 600px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #24081E;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #BBCEB6;
+}
